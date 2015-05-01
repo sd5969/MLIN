@@ -1,0 +1,268 @@
+<!--
+	@import "general.css";
+	
+	body {
+		background-color: #111111;
+		color: #FFFFFF;
+		font-family: Verdana, Courier New, Arial;
+		font-size: 14px;
+		background-image: url("meteorbg.bmp");
+		background-repeat: repeat-x;
+		background-position: top;
+	}
+	
+	div.main {
+		background-image: url("meteorbg2.bmp");
+		background-repeat: repeat-x;
+		background-position: top;
+		background-color: #000000;
+		padding-top: 1px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		border-radius: 10px 10px;
+		-webkit-border-radius: 10px 10px;
+		-moz-border-radius: 10px 10px;
+	}
+	
+	div.story {
+		overflow: auto;
+		background-image: url("meteorbg3.bmp");
+		background-repeat: repeat-x;
+		background-position: top;
+		width: 100%;
+		background-color: #111111;
+		color: #FFFFFF;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		border-radius: 5px 5px;
+		-webkit-border-radius: 5px 5px;
+		-moz-border-radius: 5px 5px;
+	}
+	
+	div#notify {
+		background-color: #111;
+	}
+	
+	div#searchit {
+		top: -50px;
+	}
+	
+	p.title {
+		margin-top: 8px;
+	}
+	
+	span.color1 {
+		color: #FF0000;
+	}
+	
+	a.standard1:link {
+		color: #FF0000;
+		text-decoration: none;
+	}
+
+	a.standard1:visited {
+		color: #FF0000;
+		text-decoration: none;
+	}
+
+	a.standard1:active {
+		color: #FF0000;
+		text-decoration: none;
+	}
+
+	span.color2 {
+		color: #CCCCCC;
+	}
+	
+	span.nerdy {
+		font-size: 30px;
+		color: #ffffff;
+	}
+	
+	span.nerdyfail {
+		color: #DDDDDD;
+	}
+	
+	span.title2 {
+		font-size: 30px;
+		color: #ffffff;
+	}
+	
+	span.footer {
+		color: #999999;
+	}
+	
+	td.navigation {
+		height: 30px;
+	}
+	
+	td.nSelected {
+		background-color: #ff6200;
+	}
+	
+	tr.navbar {
+		background-color: #111111;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	
+	a.navbar:link {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	a.navbar:visited {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	a.navbar:hover {
+		color: #EEEEEE;
+		text-decoration: none;
+	}
+	
+	a.nerdyfail:link {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	a.nerdyfail:visited {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	a.nerdyfail:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a.navbarSelected:link {
+		color: #EEEEEE;
+		text-decoration: none;
+	}
+	a.navbarSelected:visited {
+		color: #EEEEEE;
+		text-decoration: none;
+	}
+	a.navbarSelected:hover {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	
+	a.title:link {
+		color: #CCCCCC;
+		text-decoration: none;
+	}
+	a.title:visited {
+		color: #CCCCCC;
+		text-decoration: none;
+	}
+	a.title:hover {
+		text-decoration: none;
+	}
+	
+	a.foot:link {
+		color: #888888;
+		text-decoration: none;
+	}
+	a.foot:visited {
+		color: #888888;
+		text-decoration: none;
+	}
+	a.foot:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a:link {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a.page:link {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	a.page:visited {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	a.page:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a.pageSelected:link {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.pageSelected:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.pageSelected:hover {
+		color: #ff9000;
+		text-decoration: none;
+	}
+	
+	a.box:link {
+		background-color: #222;
+		text-decoration: none;
+	}
+	a.box:visited {
+		background-color: #222;
+		text-decoration: none;
+	}
+	a.box:hover {
+		background-color: #ff9000;
+		text-decoration: none;
+	}
+	
+	a.boxSelected:link {
+		background-color: #ff9000;
+		text-decoration: none;
+	}
+	a.boxSelected:visited {
+		background-color: #ff9000;
+		text-decoration: none;
+	}
+	a.boxSelected:hover {
+		background-color: #222;
+		text-decoration: none;
+	}
+
+	a.Sort:link {
+		color: #ff0000;
+		text-decoration: none;
+	}
+	a.Sort:visited {
+		color: #ff0000;
+		text-decoration: none;
+	}
+	a.Sort:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a.selectSort:link {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.selectSort:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.selectSort:hover {
+		color: #ff0000;
+		text-decoration: none;
+	}
+-->

@@ -1,0 +1,244 @@
+<!--
+	@import "general.css";
+	
+	body {
+		background-color: #E6E6E6;
+		color: #444444;
+		font-family: Verdana, Courier New, Arial;
+		font-size: 14px;
+	}
+	
+	div.main {
+		background-color: #C7C7C7;
+		padding-top: 1px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		border-radius: 10px 10px;
+		-webkit-border-radius: 10px 10px;
+		-moz-border-radius: 10px 10px;
+		border: 1px solid #0078F0;
+	}
+	
+	div.story {
+		overflow: auto;
+		width: 100%;
+		background-color: #9E9E9E;
+		color: #111111;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		border-radius: 5px 5px;
+		-webkit-border-radius: 5px 5px;
+		-moz-border-radius: 5px 5px;
+		border: 1px solid #0078F0;
+	}
+	
+	div#notify {
+		background-color: #44f;
+	}
+	
+	div#searchit {
+		top: -50px;
+	}
+	
+	p.title {
+		margin-top: 8px;
+	}
+	
+	p.title {
+		color: #111111;
+	}
+	
+	span.nerdy {
+		color: #ffffff;
+		font-size: 30px;
+	}
+	
+	span.color1 {
+		color: #4444FF;
+	}
+	
+	a.standard1:link {
+		color: #4444FF;
+		text-decoration: none;
+	}
+
+	a.standard1:visited {
+		color: #4444FF;
+		text-decoration: none;
+	}
+
+	a.standard1:active {
+		color: #4444FF;
+		text-decoration: none;
+	}
+
+	span.color2 {
+	
+	}
+	
+	span.nerdyfail {
+		color: #ffffff;
+	}
+	
+	td.navigation {
+		height: 30px;
+	}
+	
+	td.nSelected {
+		background-color: #EEEEEE;
+	}
+	
+	tr.navbar {
+		background-color: #4444FF;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	
+	a.navbar:link {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.navbar:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.navbar:hover {
+		color: #111111;
+		text-decoration: none;
+	}
+	
+	a.nerdyfail:link {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.nerdyfail:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.nerdyfail:hover {
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	a.navbarSelected:link {
+		color: #111111;
+		text-decoration: none;
+	}
+	a.navbarSelected:visited {
+		color: #111111;
+		text-decoration: none;
+	}
+	a.navbarSelected:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a.title:link {
+		color: #111111;
+		text-decoration: none;
+	}
+	a.title:visited {
+		color: #111111;
+		text-decoration: none;
+	}
+	a.title:hover {
+		color: #111111;
+		text-decoration: none;
+	}
+	
+	a:link {
+		color: #4444FF;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #4444FF;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a.page:link {
+		color: #4444FF;
+		text-decoration: none;
+	}
+	a.page:visited {
+		color: #4444FF;
+		text-decoration: none;
+	}
+	a.page:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a.pageSelected:link {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.pageSelected:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.pageSelected:hover {
+		color: #4444FF;
+		text-decoration: none;
+	}
+	
+	a.box:link {
+		background-color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.box:visited {
+		background-color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.box:hover {
+		background-color: #4444FF;
+		text-decoration: none;
+	}
+	
+	a.boxSelected:link {
+		background-color: #4444FF;
+		text-decoration: none;
+	}
+	a.boxSelected:visited {
+		background-color: #4444FF;
+		text-decoration: none;
+	}
+	a.boxSelected:hover {
+		background-color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	a.Sort:link {
+		color: #4444FF;
+		text-decoration: none;
+	}
+	a.Sort:visited {
+		color: #4444FF;
+		text-decoration: none;
+	}
+	a.Sort:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	a.selectSort:link {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.selectSort:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.selectSort:hover {
+		color: #4444FF;
+		text-decoration: none;
+	}
+-->

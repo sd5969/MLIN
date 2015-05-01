@@ -1,0 +1,108 @@
+<!--
+	div.mainwrapper {
+		width: 960px;
+		margin: 0 auto;
+}
+
+	div.main {
+		width: 960px;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 1.5;
+	}
+	
+	table {
+		border: 0px;
+	}
+	
+	div.expandMe {
+		line-height: 1;
+	}
+	
+	.story {
+		overflow: scroll;
+	}
+
+	hr.comm {
+		filter:alpha(opacity=50);
+		-moz-opacity:0.5;
+		-khtml-opacity: 0.5;
+		opacity: 0.5;
+	}
+	
+	img {
+		border: 0px;
+	}
+	
+	img.plus, img.minus, img.plus2, img.minus2 {
+		position: relative;
+		top: 6px;
+	}
+	
+	span.elevate {
+		display: inline;
+		position: relative;
+		top: -25px;
+	}
+
+	.category {
+		filter:alpha(opacity=50);
+		-moz-opacity:0.5;
+		-khtml-opacity: 0.5;
+		opacity: 0.5;
+	}
+	
+	h1 {
+	
+	}
+	
+	h2 {
+		font-size: 15px;
+	}
+	
+	h3 {
+	
+	}
+	
+	ul {
+		font-size: 12px;
+	}
+	
+	span.storytext {
+		font-size: 12px;
+	}
+	
+	#notify {
+		text-align: center;
+		position: relative;
+		width: 180px;
+		height: 36px;
+		//left: 500px;
+		top: 65px;
+		padding: 10px;
+		font-size: 12px;
+	}
+	
+	#searchit {
+		float: right;
+		width: 400px;
+		text-align: right;
+		margin-right: 1px;
+		height: 85px;
+		margin-top: 5px;
+		top: -58px;
+		position: relative;
+	}
+	
+	ul#cyclelist {
+		list-style-type: none;
+		position: relative;
+		height: 20px;
+		margin-left: -30px;
+	}
+	ul#cyclelist li {
+		position: absolute;
+		display: none;
+	}
+	
+-->

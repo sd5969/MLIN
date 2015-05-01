@@ -1,0 +1,245 @@
+<!--
+	@import "general.css";
+	
+	body {
+		background-color: #ffffee;
+		color: #800000;
+		font-family: Verdana, Courier New, Arial;
+		font-size: 14px;
+		background-image: url("yotsubabg.png");
+		background-repeat: repeat-x;
+		background-position: top;
+	}
+	
+	div.main {
+		padding-top: 1px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		background-color: #FFFFFA;
+		border:1px solid #D9BFB7;
+		border-radius: 10px 10px;
+		-webkit-border-radius: 10px 10px;
+		-moz-border-radius: 10px 10px;
+	}
+	
+	div.story {
+		overflow: auto;
+		width: 100%;
+		background-color: #f0e0d6;
+		color: #800000;
+		border:1px solid #D9BFB7;border-left:none;border-top:none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	
+	div#notify {
+		background-color: #fff;
+	}
+	
+	div#searchit {
+		top: -50px;
+	}
+	
+	p.title {
+		margin-top: 8px;
+	}
+	
+	span.color1 {
+		color: #800000;
+	}
+	
+	a.standard1:link {
+		color: #800000;
+		text-decoration: none;
+	}
+
+	a.standard1:visited {
+		color: #800000;
+		text-decoration: none;
+	}
+
+	a.standard1:active {
+		color: #800000;
+		text-decoration: none;
+	}
+
+	span.color2 {
+		color: #800000;
+	}
+	
+	span.nerdy {
+		font-size: 30px;
+		color: #117754;
+	}
+	
+	span.nerdyfail {
+		color: #800000;
+	}
+	
+	span.title2 {
+		font-size: 30px;
+		color: #117754;
+	}
+	
+	span.footer {
+		color: #800000;
+	}
+	
+	td.navigation {
+		height: 30px;
+	}
+	
+	td.nSelected {
+		background-color: #f0e0d6;
+	}
+	
+	tr.navbar {
+		background-color: #fff;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	
+	a.navbar:link {
+		text-decoration: none;
+	}
+	a.navbar:visited {
+		color: #00f;
+		text-decoration: none;
+	}
+	a.navbar:hover {
+		text-decoration: none;
+	}
+	
+	a.nerdyfail:link {
+		text-decoration: none;
+	}
+	a.nerdyfail:visited {
+		color: #00f;
+		text-decoration: none;
+	}
+	a.nerdyfail:hover {
+		text-decoration: none;
+	}
+	
+	a.navbarSelected:link {
+		text-decoration: none;
+	}
+	a.navbarSelected:visited {
+		color: #00f;
+		text-decoration: none;
+	}
+	a.navbarSelected:hover {
+		text-decoration: none;
+	}
+	
+	a.title:link {
+		color:339976;
+		text-decoration: none;
+	}
+	a.title:visited {
+		color:339976;
+		text-decoration: none;
+	}
+	a.title:hover {
+		text-decoration: none;
+	}
+	
+	a.foot:link {
+		text-decoration: none;
+	}
+	a.foot:visited {
+		color: #00f;
+		text-decoration: none;
+	}
+	a.foot:hover {
+		text-decoration: none;
+	}
+	
+	a:link {
+		text-decoration: none;
+	}
+	a:visited {
+		color: #00f;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	
+	a.page:link {
+		text-decoration: none;
+	}
+	a.page:visited {
+		color: #00f;
+		text-decoration: none;
+	}
+	a.page:hover {
+		text-decoration: none;
+	}
+	
+	a.pageSelected:link {
+		color: #f00;
+		text-decoration: none;
+	}
+	a.pageSelected:visited {
+		color: #f00;
+		text-decoration: none;
+	}
+	a.pageSelected:hover {
+		text-decoration: none;
+	}
+
+	a.box:link {
+		background-color: #ffffee;
+		text-decoration: none;
+	}
+	a.box:visited {
+		background-color: #ffffee;
+		text-decoration: none;
+	}
+	a.box:hover {
+		background-color: #ffffee;
+		text-decoration: none;
+	}
+	
+	a.boxSelected:link {
+		background-color: #ffffee;
+		text-decoration: none;
+	}
+	a.boxSelected:visited {
+		background-color: #ffffee;
+		text-decoration: none;
+	}
+	a.boxSelected:hover {
+		background-color: #ffffee;
+		text-decoration: none;
+	}
+	
+	a.Sort:link {
+		text-decoration: none;
+	}
+	a.Sort:visited {
+		color: #00f;
+		text-decoration: none;
+	}
+	a.Sort:hover {
+		text-decoration: none;
+	}
+	
+	a.selectSort:link {
+		color: #f00;
+		text-decoration: none;
+	}
+	a.selectSort:visited {
+		color: #f00;
+		text-decoration: none;
+	}
+	a.selectSort:hover {
+		text-decoration: none;
+	}
+-->

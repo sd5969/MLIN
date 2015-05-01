@@ -1,0 +1,84 @@
+AddDefaultCharset UTF-8
+DefaultLanguage en-US
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^home/([^/\.]+)/([0-9]+)/([^/\.]+)$ index.php?pop=$1&cat=$3&page=$2
+RewriteRule ^home/([^/\.]+)/([0-9]+)/([^/\.]+)/$ index.php?pop=$1&cat=$3&page=$2
+
+RewriteRule ^home/([^/\.]+)/([0-9]+)$ index.php?pop=$1&page=$2
+RewriteRule ^home/([^/\.]+)/([0-9]+)/$ index.php?pop=$1&page=$2
+
+RewriteRule ^home/([^/\.]+)$ index.php?pop=$1
+RewriteRule ^home/([^/\.]+)/$ index.php?pop=$1
+
+RewriteRule ^vote/$ vote.php
+RewriteRule ^vote$ vote.php
+RewriteRule ^vote/([^/\.]+)$ vote.php?id=$1
+RewriteRule ^vote/([^/\.]+)/$ vote.php?id=$1
+
+RewriteRule ^submit$ submit.php
+RewriteRule ^submit/$ submit.php
+
+RewriteRule ^faqs$ faqs.php
+RewriteRule ^faqs/$ faqs.php
+
+RewriteRule ^about$ about.php
+RewriteRule ^about/$ about.php
+
+RewriteRule ^ToS$ termsofservice.php
+RewriteRule ^ToS/$ termsofservice.php
+
+RewriteRule ^contact$ contact.php
+RewriteRule ^contact/$ contact.php
+
+RewriteRule ^rss$ rss.php
+RewriteRule ^rss/$ rss.php
+
+RewriteRule ^personal$ personal.php
+RewriteRule ^personal/$ personal.php
+RewriteRule ^personal/([^/]+)$ personal.php?page=$1
+RewriteRule ^personal/([^/]+)/$ personal.php?page=$1
+
+RewriteRule ^login$ login.php
+RewriteRule ^login/$ login.php
+RewriteRule ^logout$ login.php?logout=true
+RewriteRule ^logout/$ login.php?logout=true
+RewriteRule ^login/forgot$ login.php?forgot=1
+RewriteRule ^login/forgot/$ login.php?forgot=1
+RewriteRule ^login/user/([^/]+)$ login.php?user=$1
+
+RewriteRule ^register$ register.php
+RewriteRule ^register/$ register.php
+
+RewriteRule ^search$ search.php
+RewriteRule ^search/$ search.php
+RewriteRule ^search/([^/]+)$ search.php?q=$1
+RewriteRule ^search/([^/]+)/$ search.php?q=$1
+RewriteRule ^search/([^/]+)/([^/]+)$ search.php?page=$2&q=$1
+RewriteRule ^search/([^/]+)/([^/]+)/$ search.php?page=$2&q=$1
+
+RewriteRule ^story/([^/\.]+)$ story.php?id=$1
+RewriteRule ^story/([^/\.]+)/$ story.php?id=$1
+
+RewriteRule ^tou$ tou.php
+RewriteRule ^tou/$ tou.php
+
+RewriteRule ^register$ register.php
+RewriteRule ^register/$ register.php
+
+RewriteRule ^404$ 404.php
+RewriteRule ^404/$ 404.php
+
+RewriteRule ^403$ 403.php
+RewriteRule ^403/$ 403.php
+
+RewriteRule ^nwotd$ word.php
+RewriteRule ^nwotd/$ word.php
+
+RewriteRule ^settings$ settings.php
+RewriteRule ^settings/$ settings.php
+
+ErrorDocument 404 /404
+ErrorDocument 403 /403
